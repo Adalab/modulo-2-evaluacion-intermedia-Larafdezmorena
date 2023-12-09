@@ -34,4 +34,3 @@ buttonElement.addEventListener('click' , showClue);
 
 //función para intentos
 
-/

@@ -2,3 +2,67 @@
 box-sizing: border-box;
 padding: 0;
 margin: 0;
+}
+.header {
+    width: 320px;
+    padding: 20px 10px;
+}
+.main {
+    padding: 0px 10px;
+}
+.header__title {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(67, 63, 63);
+}
+.main {
+    width: 320px;
+}
+.main__label {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: grey;
+    padding-bottom: 20px;
+}
+.main__input {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(201, 197, 197);
+    margin: 20px 0px;
+    padding: 10px 0;
+}
+.main__button {
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(52, 150, 150);
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 0;
+    font-family: Roboto, 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.main__button:hover {
+    background-color: rgb(32, 120, 120);
+    cursor: pointer; 
+} 
+.main__clue {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: solid rgb(201, 198, 198);
+    border-radius: 8px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+.main__tried {
+    font-family: Roboto, 'Open Sans', sans-serif;
+    font-size: 16px;
+    border: solid rgb(201, 198, 198);
+    border-radius: 8px;
+    padding: 10px 5px;
+}
